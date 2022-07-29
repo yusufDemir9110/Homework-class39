@@ -1,0 +1,69 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "> If you are following the HackYourFuture curriculum we recommend you to start with module 1: [HTML/CSS/GIT](https://github.com/HackYourFuture/HTML-CSS). To get a complete overview of the HackYourFuture curriculum first, click [here](https://github.com/HackYourFuture/curriculum).",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test-runner",
+    "testalt": "node ./test-runner @homework",
+    "it": "node ./test-runner/run-it",
+    "alt": "node ./test-runner/run-it @homework",
+    "reset-reports": "node ./test-runner/reset-reports",
+    "sysinfo": "node ./test-runner/sysinfo",
+    "postinstall": "npm run sysinfo",
+    "cleanup": "node ./test-runner/cleanup",
+    "encrypt": "node ./test-runner/encrypt",
+    "decrypt": "node ./test-runner/decrypt",
+    "precommit": "npm run reset-reports && npm run cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackYourFuture/Homework.git"
+  },
+  "keywords": [
+    "homework",
+    "HackYourFuture"
+  ],
+  "author": "Jim Cramer for HackYourFuture",
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/HackYourFuture/Homework/issues"
+  },
+  "homepage": "https://github.com/HackYourFuture/Homework#readme",
+  "alias": {
+    "pokerDiceRoller": "./3-UsingAPIs/Week1/homework"
+  },
+  "dependencies": {
+    "@html-validate/stylish": "^2.0.1",
+    "@types/jest": "^27.0.2",
+    "acorn": "^8.5.0",
+    "acorn-walk": "^8.2.0",
+    "chalk": "^4.1.2",
+    "comment-json": "^4.1.1",
+    "cryptr": "^6.0.2",
+    "cspell": "^5.12.6",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-hyf": "git://github.com/remarcmij/eslint-plugin-hyf.git",
+    "eslint-plugin-no-autofix": "^1.2.3",
+    "fast-glob": "^3.2.7",
+    "html-validate": "^6.1.1",
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1",
+    "jsdom": "^18.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "open": "^8.4.0",
+    "prettier": "^2.4.1",
+    "prompts": "^2.4.2",
+    "rimraf": "^3.0.2",
+    "serve-handler": "^6.1.3",
+    "strip-ansi": "^7.0.1",
+    "systeminformation": "^5.9.12",
+    "winston": "^3.3.3"
+  }
+}
