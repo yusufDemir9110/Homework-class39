@@ -16,14 +16,15 @@ it pure. Do the following:
 5. Confirm that you function passes the provided unit tests.
 ------------------------------------------------------------------------------*/
 // ! Function under test
-function addToShoppingCart([...initialCart], groceryItem) {
+function addToShoppingCart(initialCart, groceryItem) {
+  const cartToReturn = [...initialCart]
   if (groceryItem) {
-    initialCart.push(groceryItem);
+    cartToReturn.push(groceryItem);
   }
-  if (initialCart.length > 3) {
-    initialCart.shift();
+  if (cartToReturn.length > 3) {
+    cartToReturn.shift();
   }
-  return initialCart;
+  return cartToReturn;
 }
 
 // ! Test functions (plain vanilla JavaScript)

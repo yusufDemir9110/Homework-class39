@@ -30,8 +30,9 @@ const employeeRecords = [
 ];
 
 // ! Function under test
-function filterPrivateData([...employeeRecords]) {
-  const filteredData = employeeRecords.map((item) => {
+function filterPrivateData(employeeRecords) {
+  const recordsToReturn=[...employeeRecords]
+  const filteredData = recordsToReturn.map((item) => {
     return {
       name: item.name,
       occupation: item.occupation,
