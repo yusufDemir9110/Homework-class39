@@ -17,12 +17,13 @@ function createObservable() {
   const subscribers = [];
   return {
     subscribe: function (subscriber) {
-      // TODO complete this function
+      return subscribers.push(subscriber)
     },
     notify: function (message) {
-      // TODO complete this function
+      return subscribers.map((subscriber)=>subscriber(message))
     },
   };
+  
 }
 
 // ! Do not change or remove the code below

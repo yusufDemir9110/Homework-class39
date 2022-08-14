@@ -24,9 +24,9 @@ function createWallet(name, cash = 0) {
 
   function transferInto(wallet, amount) {
     console.log(
-      `Transferring ${eurosFormatter.format(amount)} from ${name} to ${
-        wallet.name
-      }`
+      `Transferring ${eurosFormatter.format(
+        amount
+      )} from ${name} to ${wallet.getName()}`
     );
     const withdrawnAmount = withdraw(amount);
     wallet.deposit(withdrawnAmount);
@@ -64,8 +64,7 @@ walletJane.reportBalance();
 // * End of exercise code
 
 /*******************************************************************************
- * TODO: Multiple choice: provide your answers by replacing `undefined` with the
- * TODO: letter corresponding to your choice, e.g.  answer: 'a'
+ 
  ******************************************************************************/
 // prettier-ignore
 // eslint-disable-next-line no-unused-vars
@@ -77,7 +76,7 @@ const quiz = {
       b: 'cash, name', 
       c: 'amount, this, wallet'
     },
-    answer: undefined,
+    answer: "b",
   },
   q2: {
     question: 'What is in the Call Stack, from top to bottom?',
@@ -86,7 +85,7 @@ const quiz = {
       b: 'anonymous, transferInto', 
       c: 'transferInto, anonymous' 
     },
-    answer: undefined,
+    answer: "c",
   },
   q3: {
     question: 'What tooltip appears when hovering over the third debug button?',
@@ -95,7 +94,7 @@ const quiz = {
       b: 'Step out of current function', 
       c: 'Step' 
     },
-    answer: undefined,
+    answer: "a",
   },
   q4: {
     question: 'What is displayed in the console?',
@@ -104,7 +103,7 @@ const quiz = {
       b: 'Transferring € 50,00 from Jack to undefined', 
       c: 'Transferring € 50,00 from Jack to Jane' 
     },
-    answer: undefined,
+    answer: "a",
   },
   q5: {
     question: 'The owner of the wallet with insufficient funds is:',
@@ -113,6 +112,6 @@ const quiz = {
       b: 'Joe', 
       c: 'Jane' 
     },
-    answer: undefined,
+    answer: "c",
   },
 };
