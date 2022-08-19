@@ -31,3 +31,20 @@ ex1-doubleEvenNumbers.test.js
 2022-08-19 11:05:09 info: ------------------------------------------
 2022-08-19 11:05:12 info: All unit tests passed.
 2022-08-19 11:05:16 info: All steps were completed successfully
+2022-08-19 11:17:06 info: ------------------------------------------------------
+2022-08-19 11:17:06 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-08-19 11:17:06 info: ------------------------------------------------------
+2022-08-19 11:17:09 info: All unit tests passed.
+2022-08-19 11:17:11 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  17:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-08-19 11:17:36 info: ------------------------------------------------------
+2022-08-19 11:17:36 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-08-19 11:17:36 info: ------------------------------------------------------
+2022-08-19 11:17:38 info: All unit tests passed.
+2022-08-19 11:17:42 info: All steps were completed successfully
