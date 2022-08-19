@@ -1,0 +1,33 @@
+2022-08-19 11:01:01 info: --------------------------------------
+2022-08-19 11:01:01 info: >>> Running Unit Test `ex5-wallet` <<<
+2022-08-19 11:01:01 info: --------------------------------------
+2022-08-19 11:01:04 info: All unit tests passed.
+2022-08-19 11:01:10 info: All steps were completed successfully
+2022-08-19 11:03:39 info: ------------------------------------------------------
+2022-08-19 11:03:39 info: >>> Running Unit Test `ex1-doubleEvenNumbers.test` <<<
+2022-08-19 11:03:39 info: ------------------------------------------------------
+2022-08-19 11:03:42 info: All unit tests passed.
+2022-08-19 11:03:44 error: *** ESLint Report ***
+
+ex1-doubleEvenNumbers.test.js
+  18:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2022-08-19 11:03:58 info: Disclaimer turned off
+2022-08-19 11:04:15 info: -------------------------------------------------
+2022-08-19 11:04:15 info: >>> Running Unit Test `ex2-mondaysWorth.test` <<<
+2022-08-19 11:04:15 info: -------------------------------------------------
+2022-08-19 11:04:18 info: All unit tests passed.
+2022-08-19 11:04:22 info: All steps were completed successfully
+2022-08-19 11:04:46 info: -------------------------------------------------
+2022-08-19 11:04:46 info: >>> Running Unit Test `ex3-lemonAllergy.test` <<<
+2022-08-19 11:04:46 info: -------------------------------------------------
+2022-08-19 11:04:48 info: All unit tests passed.
+2022-08-19 11:04:52 info: All steps were completed successfully
+2022-08-19 11:05:09 info: ------------------------------------------
+2022-08-19 11:05:09 info: >>> Running Unit Test `ex4-observable` <<<
+2022-08-19 11:05:09 info: ------------------------------------------
+2022-08-19 11:05:12 info: All unit tests passed.
+2022-08-19 11:05:16 info: All steps were completed successfully
