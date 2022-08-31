@@ -29,8 +29,7 @@ function createBookList(books) {
     const bookImg = document.createElement('img');
     bookImg.src = book.imgSrc;
     liElement.appendChild(bookImg);
-    const bgColor = book.alreadyRead ? 'green' : 'red';
-    liElement.style.backgroundColor = bgColor;
+    liElement.classList.add(book.alreadyRead ? 'green' : 'red');
   });
   return ulElement;
 }

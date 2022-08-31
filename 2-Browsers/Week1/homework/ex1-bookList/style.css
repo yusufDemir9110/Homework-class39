@@ -10,3 +10,9 @@ li {
 img {
   width: 50%;
 }
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
