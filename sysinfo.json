@@ -1,0 +1,50 @@
+{
+  "node": "v16.13.1",
+  "system": {
+    "manufacturer": "Dell Inc.",
+    "model": "Precision M4800"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-4800MQ",
+    "speed": 2.7
+  },
+  "memory": "16 GB",
+  "osInfo": {
+    "platform": "Windows",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.19043"
+  },
+  "vscodeInfo": {
+    "version": "1.71.0",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.lit-html",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-footnotes",
+      "bierner.markdown-mermaid",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "christian-kohler.npm-intellisense",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "dsznajder.es7-react-js-snippets",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "FallenMax.mithril-emmet",
+      "firefox-devtools.vscode-firefox-debug",
+      "formulahendry.auto-rename-tag",
+      "GitHub.vscode-pull-request-github",
+      "ms-azuretools.vscode-docker",
+      "ms-edgedevtools.vscode-edge-devtools",
+      "ms-vsliveshare.vsliveshare",
+      "ms-vsliveshare.vsliveshare-audio",
+      "ms-vsliveshare.vsliveshare-pack",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker"
+    ],
+    "userSettings": {}
+  }
+}
