@@ -28,11 +28,7 @@ const rollDie = require('../../helpers/pokerDiceRoller');
 
 function rollDice() {
   const dice = [1, 2, 3, 4, 5];
-  const promises = Promise.all(
-    dice.map((item) => {
-      return rollDie(item);
-    })
-  );
+  const promises = Promise.all(dice.map(rollDie));
   return promises;
 }
 
@@ -48,4 +44,4 @@ if (process.env.NODE_ENV !== 'test') {
 }
 module.exports = rollDice;
 
-// actually I couldn't understand what is the problem is
+// Because we use Promise.all here. All promises must be completed even if some of them return reject

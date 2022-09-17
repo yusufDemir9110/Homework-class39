@@ -23,7 +23,7 @@ const getAnonName = (firstName) => {
 
 function main() {
   getAnonName('John')
-    .then((mes) => console.log(mes))
+    .then((message) => console.log(message))
     .catch((err) => console.log(err.message));
 }
 

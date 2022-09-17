@@ -16,7 +16,6 @@ const rollDie = require('../../helpers/pokerDiceRoller');
 
 function rollDice() {
   const results = [];
-
   return rollDie(1)
     .then((value) => {
       results.push(value);

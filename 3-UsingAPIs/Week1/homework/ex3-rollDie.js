@@ -47,4 +47,5 @@ if (process.env.NODE_ENV !== 'test') {
 }
 module.exports = rollDie;
 
-//I think this problem caused by "null" when we use callback
+//When roll>6, we catch error and our promise returns a reject. We only see 'catch',
+//our promise is not resolved if roll>6, so we don't see 'success'.

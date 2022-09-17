@@ -798,3 +798,13 @@ node:internal/process/promises:246
 2022-09-13 09:01:07 info: --------------------------------------------
 2022-09-13 09:01:10 info: All unit tests passed.
 2022-09-13 09:01:14 info: All steps were completed successfully
+2022-09-16 01:16:02 info: ---------------------------------------
+2022-09-16 01:16:02 info: >>> Running Unit Test `ex1-johnWho` <<<
+2022-09-16 01:16:02 info: ---------------------------------------
+2022-09-16 01:16:05 info: All unit tests passed.
+2022-09-16 01:16:09 info: All steps were completed successfully
+2022-09-16 01:33:19 info: --------------------------------------------
+2022-09-16 01:33:19 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2022-09-16 01:33:19 info: --------------------------------------------
+2022-09-16 01:33:22 info: All unit tests passed.
+2022-09-16 01:33:26 info: All steps were completed successfully
