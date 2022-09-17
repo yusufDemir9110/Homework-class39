@@ -3,3 +3,23 @@
 2022-09-17 11:40:48 info: ---------------------------------------------
 2022-09-17 11:40:55 info: All unit tests passed.
 2022-09-17 11:40:59 info: All steps were completed successfully
+2022-09-18 01:13:11 info: ---------------------------------------------
+2022-09-18 01:13:11 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2022-09-18 01:13:11 info: ---------------------------------------------
+2022-09-18 01:13:17 info: All unit tests passed.
+2022-09-18 01:13:21 info: All steps were completed successfully
+2022-09-18 01:13:44 info: ------------------------------------------
+2022-09-18 01:13:44 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2022-09-18 01:13:44 info: ------------------------------------------
+2022-09-18 01:13:50 info: All unit tests passed.
+2022-09-18 01:13:54 info: All steps were completed successfully
+2022-09-18 01:14:11 info: -----------------------------------------
+2022-09-18 01:14:11 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2022-09-18 01:14:11 info: -----------------------------------------
+2022-09-18 01:14:14 info: All unit tests passed.
+2022-09-18 01:14:18 info: All steps were completed successfully
+2022-09-18 01:14:37 info: ----------------------------------------
+2022-09-18 01:14:37 info: >>> Running Unit Test `ex4-diceRace` <<<
+2022-09-18 01:14:37 info: ----------------------------------------
+2022-09-18 01:14:40 info: All unit tests passed.
+2022-09-18 01:14:44 info: All steps were completed successfully

@@ -13,16 +13,24 @@ Full description at: https://github.com/HackYourFuture/Homework/blob/main/3-Usin
 // ! Do not remove this line
 const rollDie = require('../../helpers/pokerDiceRoller');
 
-function rollDice() {
+async function rollDice() {
   const dice = [1, 2, 3, 4, 5];
-  // TODO complete this function; use Promise.race() and rollDie()
+
+  const promiseRace = Promise.race(
+    dice.map((diceItem) => {
+      return rollDie(diceItem);
+    })
+  );
+  return promiseRace;
 }
 
-// Refactor this function to use async/await and try/catch
-function main() {
-  rollDice()
-    .then((results) => console.log('Resolved!', results))
-    .catch((error) => console.log('Rejected!', error.message));
+async function main() {
+  try {
+    const res = await rollDice();
+    console.log(res);
+  } catch (error) {
+    console.log(error.message);
+  }
 }
 
 // ! Do not change or remove the code below
