@@ -23,3 +23,13 @@
 2022-09-18 01:14:37 info: ----------------------------------------
 2022-09-18 01:14:40 info: All unit tests passed.
 2022-09-18 01:14:44 info: All steps were completed successfully
+2022-09-19 01:06:20 info: ----------------------------------------
+2022-09-19 01:06:20 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2022-09-19 01:06:20 info: ----------------------------------------
+2022-09-19 01:06:20 warn: A unit test file was not provided.
+2022-09-19 01:06:24 info: All steps were completed successfully
+2022-09-19 12:26:15 info: --------------------------------------------
+2022-09-19 12:26:15 info: >>> Running Unit Test `ex6-browserDebug` <<<
+2022-09-19 12:26:15 info: --------------------------------------------
+2022-09-19 12:26:15 warn: A unit test file was not provided.
+2022-09-19 12:26:19 info: All steps were completed successfully
