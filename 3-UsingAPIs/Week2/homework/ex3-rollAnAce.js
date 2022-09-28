@@ -13,11 +13,12 @@ Full description at: https://github.com/HackYourFuture/Homework/blob/main/3-Usin
 const rollDie = require('../../helpers/pokerDiceRoller');
 
 async function rollDieUntil(wantedValue) {
-  while (true) {
-    const value = await rollDie();
-    if (value !== wantedValue) continue;
-    else return value;
+  let value;   // -> initially undefined
+  while (value !== wantedValue) {
+    value = await rollDie();
   }
+  
+  return value;
 }
 
 async function main() {
